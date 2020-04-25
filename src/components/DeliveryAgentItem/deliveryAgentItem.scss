@@ -1,0 +1,32 @@
+$colorWhite: #fff;
+$colorWarning: #ffa000;
+$colorOff: #bf360c;
+
+$layoutWidth: 980px;
+$standardPadding: 6px;
+
+$colWidth: 26px;
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: $standardPadding;
+  .avatar {
+    margin: $standardPadding 0;
+    img {
+      width: 48px;
+      margin-right: $standardPadding;
+      width: $colWidth;
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+  background-color:#EFEDED;
+    cursor: pointer;
+  }
+}
+
+li.selected
+{
+  background-color:red !important;
+}
